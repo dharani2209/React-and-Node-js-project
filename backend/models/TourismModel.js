@@ -3,7 +3,7 @@ const dbConn = require("./Connection").dbConn
 class Tourism {
     place;
     days;
-    package;
+    pack;
     covid_restrictions;
     temperature;
     // the above are optionals
