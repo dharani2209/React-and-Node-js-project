@@ -35,7 +35,6 @@ app.put("/:id",function(req, res) {
         for(i in body){
             tourism[i] = body[i] 
         }
-        console.log("tourism", tourism);
         tourism.update(req.params.id ,function(err, tourism) {
             if (err)
             res.send(err);
